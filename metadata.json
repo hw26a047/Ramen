@@ -1,0 +1,6 @@
+{
+  "name": "ラーメン開発シミュレーター",
+  "description": "麺の太さ、スープの材料、トッピングを自由に組み合わせて自分だけのオリジナルラーメンを開発し、人気ラーメン店を目指す経営シミュレーションゲームです。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
