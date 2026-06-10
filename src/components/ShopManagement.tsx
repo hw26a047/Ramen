@@ -368,7 +368,7 @@ export default function ShopManagement({
                 className="w-full py-3.5 h-14 bg-[#FBC02D] hover:bg-[#F9A825] border-b-4 border-[#C49000] text-[#4A2C2A] text-xs sm:text-sm font-black rounded-2xl flex items-center justify-center gap-2 group transition-all"
               >
                 <Play size={15} fill="#4A2C2A" />
-                <span>のれんを掲げて「開店する！」</span>
+                <span>開店</span>
               </button>
             )}
           </div>
@@ -542,7 +542,7 @@ export default function ShopManagement({
         {!isOperating && activeCustomers.length === 0 && (
           <div className="absolute inset-x-0 bottom-12 text-center animate-pulse z-0 pointer-events-none">
             <p className="text-xs text-slate-500 font-bold font-sans flex items-center justify-center gap-1.5">
-              <span>🎏 暖簾は開いております。いつでも「開店する！」で営業を開始できます！</span>
+              <span>🎏 暖簾は開いております。いつでも「開店」で営業を開始できます！</span>
             </p>
           </div>
         )}

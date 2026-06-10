@@ -197,7 +197,7 @@ export default function ContestSection({
   };
 
   return (
-    <div id="contest_panel_root" className="w-full bg-white rounded-2xl border-2 sm:border-4 border-[#E0C097] p-3 text-[#4A2C2A] h-[calc(100vh-180px)] sm:h-[calc(100vh-190px)] flex flex-col justify-between overflow-hidden">
+    <div id="contest_panel_root" className="w-full bg-white rounded-2xl border-2 sm:border-4 border-[#E0C097] p-3 text-[#4A2C2A] h-[calc(100vh-100px)] sm:h-[calc(100vh-140px)] flex flex-col justify-between overflow-hidden">
       {!isFighting ? (
         <div className="flex-1 flex flex-col lg:grid lg:grid-cols-12 gap-3 overflow-hidden min-h-0">
           {/* 左コンテンツ：大会リスト */}

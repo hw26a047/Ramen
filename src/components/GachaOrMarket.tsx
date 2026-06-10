@@ -115,7 +115,7 @@ export default function GachaOrMarket({
   };
 
   return (
-    <div id="gacha_market_root" className="w-full bg-white rounded-2xl border-2 sm:border-4 border-[#E0C097] p-3 text-[#4A2C2A] h-[calc(100vh-180px)] sm:h-[calc(100vh-190px)] flex flex-col overflow-hidden">
+    <div id="gacha_market_root" className="w-full bg-white rounded-2xl border-2 sm:border-4 border-[#E0C097] p-3 text-[#4A2C2A] h-[calc(100vh-100px)] sm:h-[calc(100vh-140px)] flex flex-col overflow-hidden">
       {/* 画面ヘッダー */}
       <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-2 border-b border-[#E0C097]/40 pb-2 flex-shrink-0">
         <div>
